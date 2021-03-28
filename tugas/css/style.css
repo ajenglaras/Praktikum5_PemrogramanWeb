@@ -1,0 +1,57 @@
+body { /*memberi style pada body*/
+	font-family: verdana; /*gaya font verdana dan ukuran 0.85em*/
+	font-size: 0.85em;}
+.menu { /*memberi style pada class menu*/
+	display: block; /*tamplian elemen tipe block*/
+	background-color:mediumturquoise; /*warna background*/
+	height:46px;} /*tinggi 46px*/
+.content { /*memberi style pada class content*/
+	clear: both; /*membersihkan keduanya*/
+	padding:5px 0; /*padding 5px 0px*/
+	min-height: 200px;} /*tinggi minimal 200px*/
+.footer {  /*memberi style pada class footer*/
+	clear: both; /*membersihkan keduanya*/
+	margin-top:10px; /*margin atas 10px*/
+	background-color: #eee; /*warna background*/
+	padding:10px 8px;} /*padding 10px 8px*/
+#navigasi { /*memberi style pada navigasi*/
+	position:relative; /*psisi relatif*/
+	line-height:30px; /*tinggi garis 30px*/
+	margin:0; /*margin 0*/
+	padding:0; /*padding 0*/
+	list-style-type:none; 
+	list-style-position:outside;}
+#navigasi a { /*memberi style pada navigasi a*/
+	display:block;  /*tamplian elemen tipe block*/
+	padding:8px 16px; /*padding 8px 16px*/
+	background-color:mediumturquoise; /*warna background*/
+	color:#fff; /*warna text*/
+	text-decoration:none;}
+#navigasi a:hover { /*memberi style pada navigasi a:hover*/
+	background-color:mediumturquoise; /*warna background*/
+	color:#fff;} /*warna text*/
+#navigasi li { /*memberi style pada navigasi li*/
+	position:relative;  /*psisi relatif*/
+	float:left;} /*posisi elemen di kiri*/
+#navigasi ul { /*memberi style pada navigasi ul*/
+	position:absolute;
+	display:none;  /*tamplian elemen tipe none*/
+	margin:0; /*margin 0*/
+	padding:0; /*padding 0*/
+	list-style-type:none;
+	list-style-position:outside;}
+#navigasi li ul a{ /*memberi style pada navigasi li ul a*/
+	width:12em; /*lebar 12em*/
+	height:auto; /*tinggi auto*/
+	float:left;} /*posisi elemen di kiri*/
+#navigasi li:hover ul{ /*memberi style pada navigasi li:hover ul*/
+	display:block;} /*tamplian elemen tipe block*/
+#navigasi li:hover ul ul{ /*memberi style pada navigasi li:hover ul ul*/
+	display:none;} /*tamplian elemen tipe none*/
+.kuliah { /*memberi style pada class kuliah*/
+	background: #ddd;} /*warna background*/
+.judul {
+	padding: 4px; /*padding 4px*/
+	border-top: 1px solid #ccc; /*border atas 1px dan warna putih*/
+	border-bottom: 1px solid #ccc; /*border bawah 1px dan warna putih*/
+	font-weight: bold;} /*ketebalan font bold*/
